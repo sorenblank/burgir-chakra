@@ -1,0 +1,62 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-shadows: 'Shadows Into Light', cursive;
+  --font-rubik: 'Rubik', sans-serif;
+  color-scheme: light;
+
+  --orange: "#ff9d2e";
+  --white: "#ffffff";
+  --offwhite: "#f1d6c6";
+  --offwhite2: "#e8ccbb";
+  --yellow: "#FF9D2E";
+  --notyellow: "#FF8D29";
+  --sonicsilver: "#787878";
+  --richblackfogra: "#0e0e12";
+  --champagnepink: "#f1d6c6";
+  --saffron: "#ff9d2e";
+  --darkOrange: "#ff8d29";
+  --desertSand: "#e8ccbb";
+  --issabeline: "#f9f6f0";
+  --cinnabar: "#f42f25";
+  --cultured : "#ededed";
+  --gray: "#bababa";
+  --notgray: "#dedede";
+  --independence: "#3f3d574d";
+
+  --shadow-1: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+  --shadow-2: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background-color: #ededed }
+::-webkit-scrollbar-thumb { background-color: #ff9d2e; }
+::-webkit-scrollbar-thumb:hover { background-color: var(#ff9d2e); }
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+}
+
+100% {
+    transform: scale(1.05);
+}
+}
+
+html {
+  font-family: var(--font-roboto);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: var(--sonic-silver);
+  font-size: 16px;
+  line-height: 1.6;
+}
